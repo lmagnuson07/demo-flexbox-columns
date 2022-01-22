@@ -1,0 +1,21 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.col-group {
+    display: flex;
+    flex-flow: wrap;
+    gap: 2%;
+}
+
+h2 {
+    flex-basis: 100%;
+}
+
+.col-group > section {
+    flex-basis: calc(96%/3);
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 8px;
+}
